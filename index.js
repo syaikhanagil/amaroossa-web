@@ -38,6 +38,7 @@ app.get('/*', (req, res) => {
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="facebook-domain-verification" content="hehmal1r7k2h5wfozbs6jmjs97dazt" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">${helmet.title.toString()}${helmet.meta.toString()}${helmet.link.toString()}
     <meta name="keywords" content="Hotel Lombok, Lombok, Lombok Luxury Hotel, Lombok Villa, Luxury Lombok, Villa, Limasatu Resort, Villa Private Pool, Limasatu Restaurant, Restaurant Lombok, Sunset Lombok">
     <link rel="shortcut icon" href="/assets/amaroossa.png" type="image/x-icon">
