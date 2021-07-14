@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "build": "webpack --config webpack.prod.js --progress",
-        "dev": "webpack && concurrently \"webpack --watch\" \"nodemon build\"",
+        "start": "webpack && concurrently \"webpack --watch\" \"nodemon build\"",
         "test": "jest"
     },
     "author": "Saekhan Agil",

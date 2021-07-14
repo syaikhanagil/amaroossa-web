@@ -41,7 +41,7 @@ class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            hasPromo: true,
+            hasPromo: false,
             showPromo: false
         };
     }
