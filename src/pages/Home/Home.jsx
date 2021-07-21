@@ -1,5 +1,6 @@
 import React from 'react';
 // import Slider from 'react-slick';
+import { keyframes } from '@emotion/react';
 import styled from '@emotion/styled';
 import Main from '../../templates/Main';
 // import parallax1 from '../../assets/img/amaroossa-banner-1.jpg';
@@ -289,6 +290,36 @@ const HotelHolder = styled.div`
     }
 `;
 
+const textAnimation = keyframes`
+    0%   {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+ `;
+
+const TopInfo = styled.div`
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #be8c4b;
+    padding: 5px 0;
+    color: #fff;
+    white-space: nowrap;
+    span {
+        display: block;
+        width: 100%;
+        transform:translateX(100%);
+        animation: ${textAnimation} 15s linear infinite;
+    }
+
+    @media only screen and (max-width: 768px){
+        font-size: 14px;
+    }
+`;
+
 // const HotelBtn = styled.button`
 //     position: relative;
 //     display: block;
@@ -390,6 +421,9 @@ class Home extends React.Component {
 
         return (
             <Main useHeader={false}>
+                <TopInfo>
+                    <span>Untuk menunjang keberahasilan booking, mohon non-aktifkan ads-blocker.</span>
+                </TopInfo>
                 <SectionContainer className="container" id="landing-area">
                     <BrandLogo className="mb-4">
                         <a href="/">

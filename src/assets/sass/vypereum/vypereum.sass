@@ -214,6 +214,31 @@ h6
     background: $white
     right: 1rem
     bottom: -120%
+    transition: .5s ease
+    cursor: pointer
+    border-radius: 50px
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, .15)
+    z-index: 99
+
+    &:hover
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, .2)
+
+    &.visible
+        bottom: 130px
+
+.vy-wa-btn
+    position: fixed
+    display: flex
+    width: 50px
+    height: 50px
+    justify-content: center
+    align-items: center
+    font-size: 25px
+    text-decoration: none
+    color: #0CC243
+    background: $white
+    right: 1rem
+    bottom: -120%
     transition: .25s ease
     cursor: pointer
     border-radius: 50px

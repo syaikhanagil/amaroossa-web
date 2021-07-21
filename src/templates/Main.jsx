@@ -7,6 +7,7 @@ import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
 // import pattern from '../assets/img/bg-pattern-skulls.gif';
 import Footer from '../components/Footer/Footer';
 import PromoDialog from '../components/PromoDialog/PromoDialog';
+import Whatsapp from '../components/WhatsApp/Whatsapp';
 
 const FloatingSocial = styled.div`
     position: fixed;
@@ -81,6 +82,7 @@ class Main extends React.Component {
                         <i className="ri-instagram-line" />
                     </a>
                 </FloatingSocial>
+                <Whatsapp />
                 <ScrollToTop />
                 <Footer showMenu={false} />
                 {usePromo && hasPromo && showPromo && (
