@@ -312,7 +312,7 @@ const TopInfo = styled.div`
         display: block;
         width: 100%;
         transform:translateX(100%);
-        animation: ${textAnimation} 15s linear infinite;
+        animation: ${textAnimation} 10s linear infinite;
     }
 
     @media only screen and (max-width: 768px){

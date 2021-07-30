@@ -82,11 +82,6 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '2258488740952414');
 fbq('track', 'PageView');
 
-
-    fbq('track','AddToCart');
-    fbq('track','Purchase', {value:0.00, currency: 'IDR'});
-
-
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2258488740952414&ev=PageView&noscript=1"
