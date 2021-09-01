@@ -29,7 +29,7 @@ const LittleFooter = () => {
                 <div className="col-12 col-md-6 mb-3">
                     <h5>Contact Us</h5>
                     <p>+62 21-2912-4555</p>
-                    <p><a href="https://api.whatsapp.com/send?phone=6282125772287" target="_blank" rel="noopener noreferrer">+62 821-2577-2287</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=6281282035755" target="_blank" rel="noopener noreferrer">+62 812-8203-5755</a></p>
                     <p><a href="mailto:fo.little@amaroossaresidence.com">fo.little@amaroossaresidence.com</a></p>
                 </div>
             </div>

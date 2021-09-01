@@ -28,7 +28,7 @@ const BandungFooter = () => {
                 <div className="col-12 col-md-6 mb-3">
                     <h5>Contact Us</h5>
                     <p>+62 22-422-2221</p>
-                    <p><a href="https://api.whatsapp.com/send?phone=6281294025520" target="_blank" rel="noopener noreferrer">+62 812-9402-5520</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=6281584222221" target="_blank" rel="noopener noreferrer">+62 815-8422-2221</a></p>
                     <p><a href="mailto:resv@amaroossahotel.com">resv@amaroossahotel.com</a></p>
                 </div>
             </div>
