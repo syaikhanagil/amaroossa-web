@@ -37,7 +37,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-12 col-md-6 text-center text-md-start">
-                            <span>Copyright © 2021 - Amaroossa Hotels. Managed by <a href="https://adaf.co.id" target="_blank" rel="noopener noreferrer">PT Adaf Safeer Indonesia</a></span>
+                            <span>Copyright © 2021 - Amaroossa Hotels. Powered by <a href="https://adaf.co.id" target="_blank" rel="noopener noreferrer">PT Adaf Safeer Indonesia</a></span>
                         </div>
                         <div className="col-12 col-md-6 text-center text-md-end">
                             <span>Payment Gateway by <a href="https://xendit.co" target="_blank" rel="noopener noreferrer">Xendit</a></span>
