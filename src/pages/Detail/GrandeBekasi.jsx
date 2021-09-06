@@ -28,7 +28,7 @@ const GrandeFooter = () => {
                 <div className="col-12 col-md-6 mb-3">
                     <h5>Contact Us</h5>
                     <p><a href="tel:+622122100000">+62 21-2210-0000</a></p>
-                    <p><a href="https://api.whatsapp.com/send?phone=6282123466991" target="_blank" rel="noopener noreferrer">+62 821-2346-6991</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=6281282321998" target="_blank" rel="noopener noreferrer">+62 812-8232-1998</a></p>
                     <p><a href="mailto:grandebekasi@amaroossahotel.com">grandebekasi@amaroossahotel.com</a></p>
                 </div>
             </div>
