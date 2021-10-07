@@ -31,7 +31,7 @@ const CosmoFooter = () => {
                 <div className="col-12 col-md-6 mb-3">
                     <h5>Contact Us</h5>
                     <p>+62 21-7591-8800</p>
-                    <p><a href="https://api.whatsapp.com/send?phone=6285945862052" target="_blank" rel="noopener noreferrer">+62 859-4586-2052</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=6287871522105" target="_blank" rel="noopener noreferrer">+62 878-7152-2105</a></p>
                     <p><a href="mailto:reservation.caj@amaroossahotel.com">reservation.caj@amaroossahotel.com</a></p>
                 </div>
             </div>
